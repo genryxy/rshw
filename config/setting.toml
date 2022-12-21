@@ -1,0 +1,17 @@
+[COMMON]
+random_state = 3
+
+[DATA]
+data_set = 'https://raw.githubusercontent.com/5x12/ml-cookbook/master/supplements/data/heart.csv'
+
+[MODEL]
+model_path = 'model/conf/'
+rf_clf_pkl = 'random_forest.pkl'
+sgd_clf_pkl = 'sgd_classifier.pkl'
+
+[RANDOM_FOREST]
+n_estimators = 128
+max_depth = 3
+
+[SGD]
+alpha = 0.0001
